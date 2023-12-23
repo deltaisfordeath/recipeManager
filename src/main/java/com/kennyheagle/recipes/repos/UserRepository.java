@@ -8,6 +8,4 @@ import com.kennyheagle.recipes.models.User;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
 
-    Optional<User> findByEmail(String email);
-
 }
